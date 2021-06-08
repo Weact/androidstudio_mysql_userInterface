@@ -1,6 +1,23 @@
 # androidstudio_mysql_userInterface
 user interface for android studio using personal mysql php library
 
+# IMPORTANT INFORMATION ABOUT THE PROJECT
+[FRENCH]
+Suite à des problématiques de temps, ce projet n'a pas été finalisé
+Cependant, il est prévu que ce dernier soit finalisé et mis à jour prochainement
+Evidemment, tout update du projet sera notifier
+
+# CONTENT :
+- Screen to create a user
+- Screen to Login
+- Profile Screen so that the user can search someone by its username
+- Settings in the profile screen to access Settings or Logout
+- Profile's settings to give the possibility to the user to change its credentials
+
+# TODO FEATURES :
+- List of users
+- Click on user to modify or delete
+
 Please if you do not have access to the library repository
 Ask access to https://github.com/Weact
 
