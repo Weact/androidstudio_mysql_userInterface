@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">persistancedonnee_mysql</string>
+    <string name="createUser_title">Create User</string>
+    <string name="createUser_username_label">Username</string>
+    <string name="createUser_password_label">Password</string>
+    <string name="createUser_email_label">Email</string>
+    <string name="createUser_submit">Submit User</string>
+    <string name="userAlreadyHasAccount">You already have an account ? Log in instead !</string>
+    <string name="loginbuttonswitch">Login</string>
+    <string name="loginscreen_username_label">Username</string>
+    <string name="loginscreen_usernamehint">Type your username here !</string>
+    <string name="loginscreen_password_label">Password</string>
+    <string name="loginscreen_passwordhint">Type your password here !</string>
+    <string name="loginscreen_loginbtntext">Log In</string>
+    <string name="mymenu_logout_title">Logout</string>
+    <string name="mymenu_settings_title">Settings</string>
+    <string name="profile_useremail">Email :</string>
+    <string name="profile_welcomeusername">Welcome username !</string>
+    <string name="searchbtn_text">Chercher</string>
+    <string name="searchuser_textview_indicator">Chercher un utilisateur (entrez username) :</string>
+    <string name="user_birthdate_label">Birthdate</string>
+    <string name="user_founduserbirthdate">Found user birthdate :</string>
+    <string name="user_locality_label">Locality :</string>
+    <string name="user_founduserlocality">Found user locality : </string>
+    <string name="updateUserInfo">Update User Informations</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="createUser_titleDimension">35sp</dimen>
+    <dimen name="createUser_loginAgain">20sp</dimen>
+    <dimen name="createUser_labelDimension">25sp</dimen>
+    <dimen name="createUser_labelPadding">50dp</dimen>
+    <dimen name="marginTop_accountexistlabel">10dp</dimen>
+    <dimen name="linearLayout_loginscreen_margintop">100dp</dimen>
+    <dimen name="loginscreen_usernamelabel_textsize">30sp</dimen>
+    <dimen name="loginscreen_webviewer_height">300dp</dimen>
+    <dimen name="loginscreen_webviewer_margintop">50dp</dimen>
+    <dimen name="textsize_searchbtn_label">18sp</dimen>
+</resources>

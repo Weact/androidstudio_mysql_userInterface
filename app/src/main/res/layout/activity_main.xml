@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/createUser_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/createUser_title"
+            android:textSize="@dimen/createUser_titleDimension" />
+
+        <TextView
+            android:id="@+id/createUser_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/createUser_username_label"
+            android:textSize="@dimen/createUser_labelDimension"
+            android:paddingLeft="@dimen/createUser_labelPadding"/>
+
+        <EditText
+            android:id="@+id/createUser_username_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/createUser_labelPadding"/>
+
+        <TextView
+            android:id="@+id/createUser_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/createUser_password_label"
+            android:textSize="@dimen/createUser_labelDimension"
+            android:paddingLeft="@dimen/createUser_labelPadding"/>
+
+        <EditText
+            android:id="@+id/createUser_password_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/createUser_labelPadding"/>
+
+        <TextView
+            android:id="@+id/createUser_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/createUser_email_label"
+            android:textSize="@dimen/createUser_labelDimension"
+            android:paddingLeft="@dimen/createUser_labelPadding"/>
+
+        <EditText
+            android:id="@+id/createUser_email_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/createUser_labelPadding"/>
+
+        <TextView
+            android:id="@+id/createUser_birthdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_birthdate_label"
+            android:textSize="@dimen/createUser_labelDimension"
+            android:paddingLeft="@dimen/createUser_labelPadding"/>
+
+        <EditText
+            android:id="@+id/createUser_birthdate_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/createUser_labelPadding"
+            android:ems="10"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/createUser_locality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Locality"
+            android:textSize="@dimen/createUser_labelDimension"
+            android:paddingLeft="@dimen/createUser_labelPadding"/>
+
+        <EditText
+            android:id="@+id/createUser_localite_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/createUser_labelPadding" />
+
+        <Button
+            android:id="@+id/createUser_btnsubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/createUser_submit"/>
+
+        <TextView
+            android:id="@+id/loginUser_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/userAlreadyHasAccount"
+            android:textSize="@dimen/createUser_labelDimension"
+            android:layout_marginTop="@dimen/marginTop_accountexistlabel" />
+        <TextView
+            android:id="@+id/logoutMessage_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/createUser_labelDimension"
+            android:layout_marginTop="@dimen/marginTop_accountexistlabel"
+            android:visibility="invisible"
+            android:textColor="@color/red"/>
+        <Button
+            android:id="@+id/loginActivitySwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loginbuttonswitch"/>
+    </LinearLayout>
+
+</RelativeLayout>
