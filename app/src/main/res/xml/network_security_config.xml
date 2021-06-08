@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
     <domain-config cleartextTrafficPermitted="true">
+        <!--
+        TO MAKE THIS PROJECT WORKS, PLEASE CHANGE THE CONTENT OF THE DOMAIN TO YOUR IPADRESS (ipV4)
+        -->
         <domain includeSubdomains="true">192.168.19.209</domain>
     </domain-config>
 </network-security-config>
