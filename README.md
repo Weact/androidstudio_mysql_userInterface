@@ -4,13 +4,13 @@ user interface for android studio using personal mysql php library
 Please if you do not have access to the library repository
 Ask access to https://github.com/Weact
 
-#IMPORTANT INFORMATION ABOUT WAMPSERVER
+# IMPORTANT INFORMATION ABOUT WAMPSERVER
 
 Please, use WampServer so this project works properly.
 To do so, you need to clone the repository https://github.com/Weact/php_mysql_for_androidstudio
 into your wamp projects folder and follow the instructions below
 
-#IMPORTANT INFORMATION ABOUT CONSTANTS.JAVA
+# IMPORTANT INFORMATION ABOUT CONSTANTS.JAVA
 
 TO MAKE THIS PROJECT WORKS, PLEASE CLONE THE REPOSITORY https://github.com/Weact/php_mysql_for_androidstudio
 IF YOU DO NOT HAVE ACCESS TO THE REPOSITORY, PLEASE ASK ACCESS TO https://github.com/Weact
